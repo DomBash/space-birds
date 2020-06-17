@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6613781334370249385}
   - component: {fileID: 6613781334370249387}
   - component: {fileID: 6613781334370249386}
-  - component: {fileID: 1421426364500761895}
   m_Layer: 0
   m_Name: Sprite3
   m_TagString: Meteor
@@ -121,27 +120,6 @@ PolygonCollider2D:
       - {x: 0.82, y: -0.42}
       - {x: 0.82, y: 0.39999998}
       - {x: 0.74, y: 0.56}
---- !u!50 &1421426364500761895
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6613781334370249384}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &6613781334513556821
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +131,6 @@ GameObject:
   - component: {fileID: 6613781334513556822}
   - component: {fileID: 6613781334513556776}
   - component: {fileID: 6613781334513556823}
-  - component: {fileID: 142802814018056836}
   m_Layer: 0
   m_Name: Sprite6
   m_TagString: Meteor
@@ -265,27 +242,6 @@ PolygonCollider2D:
       - {x: 1.22, y: -0.38}
       - {x: 1.3, y: -0.28}
       - {x: 1.3, y: -0.02}
---- !u!50 &142802814018056836
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6613781334513556821}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &6613781334649646913
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +253,6 @@ GameObject:
   - component: {fileID: 6613781334649646914}
   - component: {fileID: 6613781334649646916}
   - component: {fileID: 6613781334649646915}
-  - component: {fileID: 5516861962108086102}
   - component: {fileID: 5949073935678829898}
   m_Layer: 0
   m_Name: Sprite1
@@ -411,27 +366,6 @@ PolygonCollider2D:
       - {x: 0.64, y: -0.68}
       - {x: 0.90999997, y: -0.69}
       - {x: 1.11, y: -0.59}
---- !u!50 &5516861962108086102
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6613781334649646913}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!60 &5949073935678829898
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -535,7 +469,6 @@ GameObject:
   - component: {fileID: 6613781335824913663}
   - component: {fileID: 6613781335824913649}
   - component: {fileID: 6613781335824913648}
-  - component: {fileID: 4523820760456707481}
   m_Layer: 0
   m_Name: Sprite5
   m_TagString: Meteor
@@ -648,27 +581,6 @@ PolygonCollider2D:
       - {x: 0.81, y: -0.38}
       - {x: 1.02, y: -0.19}
       - {x: 1.02, y: 0.14999999}
---- !u!50 &4523820760456707481
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6613781335824913662}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &6613781336069368643
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +592,6 @@ GameObject:
   - component: {fileID: 6613781336069368644}
   - component: {fileID: 6613781336069368646}
   - component: {fileID: 6613781336069368645}
-  - component: {fileID: 6949596640252476640}
   m_Layer: 0
   m_Name: Sprite4
   m_TagString: Meteor
@@ -791,27 +702,6 @@ PolygonCollider2D:
       - {x: 0.7, y: -0.57}
       - {x: 0.82, y: -0.48}
       - {x: 0.82, y: -0.07}
---- !u!50 &6949596640252476640
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6613781336069368643}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &6613781336132788221
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +713,6 @@ GameObject:
   - component: {fileID: 6613781336132788222}
   - component: {fileID: 6613781336132788208}
   - component: {fileID: 6613781336132788223}
-  - component: {fileID: 2608658657210476925}
   m_Layer: 0
   m_Name: Sprite2
   m_TagString: Meteor
@@ -940,24 +829,3 @@ PolygonCollider2D:
       - {x: 0.34, y: -0.58}
       - {x: 0.7, y: -0.57}
       - {x: 0.82, y: -0.48}
---- !u!50 &2608658657210476925
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6613781336132788221}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 0.0001
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0

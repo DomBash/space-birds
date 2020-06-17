@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public UIController ui;
     private Rigidbody2D rb2D;
     private float thrust = 20.0f;
+
+    public SystemController system;
 
     void Start()
     {
@@ -16,9 +17,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && system.isInGame)
         {
             rb2D.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+            //rb2D.AddForce(transform.up * 1000);
         }
     }
 
@@ -26,9 +28,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.tag == "Meteor")
             FindObjectOfType<SystemController>().GameOver();
+
+        if (other.tag == "Coin")
+        {
+            FindObjectOfType<SystemController>().AddCoin();
+            Destroy(other.gameObject);
+        }
     }
 
-    public void Replay()
+    public void Play()
     {
         rb2D.gravityScale = 0;
         rb2D.velocity = Vector2.zero;
@@ -38,5 +46,6 @@ public class PlayerMovement : MonoBehaviour
     public void TapToPlay()
     {
         rb2D.gravityScale = 3;
+        
     }
 }

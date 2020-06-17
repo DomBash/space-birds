@@ -8,10 +8,13 @@ public class MeteorController : MonoBehaviour
     private float rotationSpeed;
     public float moveSpeed = 1f;
     public bool middle = false;
+    private bool pointAdded = false;
+    private SystemController system;
 
     void Start()
     {
         rotationSpeed = Random.Range(30, 60);
+        system = FindObjectOfType<SystemController>();
         SetSprite();
     }
 
@@ -23,6 +26,13 @@ public class MeteorController : MonoBehaviour
             */
         transform.Rotate(0, 0, rotationSpeed * Time.deltaTime); //rotates 50 degrees per second around z axis
         transform.Translate(-Time.deltaTime * moveSpeed, 0f, 0f, Space.World);
+
+
+        if (transform.position.x <= -5 && !pointAdded && middle)
+        {
+            pointAdded = true;
+            system.AddScore();
+        }
 
         if (transform.position.x <= -10)
         {

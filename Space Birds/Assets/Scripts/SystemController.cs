@@ -1,65 +1,165 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SystemController : MonoBehaviour
 {
 
     public GameObject meteorPrefab;
     public GameObject meteorMiddlePrefab;
+    public GameObject coinPrefab;
+
     public Transform meteorHolder;
+    public Transform coinHolder;
+
     private float meteorRate = 0.5f;
     private float nextMeteorTime = 0f;
-    
 
+    private float nextCoinTime = 0f;
+
+    private List<GameObject> middleMeteors = new List<GameObject>();
+    private List<GameObject> coinsL = new List<GameObject>();
+
+    public bool isInGame = false;
+
+    private int score = 0;
+    private int coins = 0;
+
+    public Text scoreText;
+    public Text scoreOverText;
 
     public UIController ui;
     public PlayerMovement player;
 
     void Start()
     {
+        Time.timeScale = 0;
+        nextCoinTime = Time.time + 1f / Random.Range(0.2f, 0.05f);
         for (int i = 0; i < 15; i++)
         {
             var meteor = Instantiate(meteorPrefab, new Vector2( -8f + (i * 1.5f), 4.5f), Quaternion.identity);
             meteor.transform.SetParent(meteorHolder);
         }
-
+       
         for (int i = 0; i < 15; i++)
         {
-            var meteor = Instantiate(meteorPrefab, new Vector2( -8f + (i * 1.5f), -4.5f), Quaternion.identity);
+            var meteor = Instantiate(meteorPrefab, new Vector2(-8f + (i * 1.5f), -4.5f), Quaternion.identity);
             meteor.transform.SetParent(meteorHolder);
-        }
+        }      
     }
 
     void Update()
     {
-        if(Time.time >= nextMeteorTime)
+        if (Input.GetKeyDown(KeyCode.Q))
+            ResetPlayerPrefs();
+
+        if(Time.time >= nextMeteorTime && isInGame)
         {
             SpawnMeteor();
             nextMeteorTime = Time.time + 1f / meteorRate;
+        }
+
+        if (Time.time >= nextCoinTime && isInGame)
+        {
+            SpawnCoin();
+            nextCoinTime = Time.time + 1f / Random.Range(0.2f, 0.05f);
         }
     }
 
     void SpawnMeteor()
     {
-        var meteor = Instantiate(meteorMiddlePrefab, new Vector2(12f, Random.Range(-4f, 4f)), Quaternion.identity);
+        var meteor = Instantiate(meteorMiddlePrefab, new Vector2(12f, Random.Range(-3.5f, 3.5f)), Quaternion.identity);
+        middleMeteors.Add(meteor);
         meteor.transform.SetParent(meteorHolder);
     }
+    void SpawnCoin()
+    {
+        var coin = Instantiate(coinPrefab, new Vector2(12f, Random.Range(-3.5f, 3.5f)), Quaternion.identity);
+        coinsL.Add(coin);
+        coin.transform.SetParent(coinHolder);
+    }
+
 
     public void GameOver()
     {
+        scoreOverText.text = "Score: " + score;
         ui.GameOverMenu();
-    }
-
-    public void Replay()
-    {
-        player.Replay();
-        print("replaying");
+        isInGame = false;
+        Time.timeScale = 0;
+        
     }
 
     public void Play()
     {
-        print("system play");
+        player.Play();
+        score = 0;
+        scoreText.text = score.ToString();
+
+        foreach (GameObject meteor in middleMeteors)
+        {
+            Destroy(meteor);
+        }
+        middleMeteors = new List<GameObject>();
+
+        foreach (GameObject coin in coinsL)
+        {
+            Destroy(coin);
+        }
+        coinsL = new List<GameObject>();
+
+        Time.timeScale = 1;
     }
 
+    public void TapToPlay()
+    {
+        isInGame = true;
+    }
+
+    public void AddScore()
+    {
+        score += 1;
+
+        if (score > GetHS())
+            SetHS(score);
+
+        scoreText.text = score.ToString();
+    }
+
+    public void AddCoin()
+    {
+        coins += 1;
+        Add1Coin();
+    }
+
+    void SetHS(int num)
+    {
+        PlayerPrefs.SetInt("HS", num);
+    }
+
+    void Add1Coin()
+    {
+        PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + 1);
+    }
+
+    public void SetCoins(int num)
+    {
+        PlayerPrefs.SetInt("Coins", num);
+    }
+
+    public int GetHS()
+    {
+        return PlayerPrefs.GetInt("HS");
+    }
+
+    public int GetCoins()
+    {
+        return PlayerPrefs.GetInt("Coins");
+    }
+
+    public void ResetPlayerPrefs()
+    {
+        PlayerPrefs.SetInt("Coins", 0);
+        PlayerPrefs.SetInt("HS", 0);
+    }
 }
