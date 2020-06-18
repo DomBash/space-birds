@@ -13,6 +13,8 @@ public class SystemController : MonoBehaviour
     public Transform meteorHolder;
     public Transform coinHolder;
 
+    public Text shopCoinText;
+
     private float meteorRate = 0.5f;
     private float nextMeteorTime = 0f;
 
@@ -31,10 +33,10 @@ public class SystemController : MonoBehaviour
 
     public UIController ui;
     public PlayerMovement player;
+    public AnimationController anims;
 
     void Start()
     {
-        Time.timeScale = 0;
         nextCoinTime = Time.time + 1f / Random.Range(0.2f, 0.05f);
         for (int i = 0; i < 15; i++)
         {
@@ -52,9 +54,12 @@ public class SystemController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
+            PrintPlayerPrefs();
+
+        if (Input.GetKeyDown(KeyCode.R))
             ResetPlayerPrefs();
 
-        if(Time.time >= nextMeteorTime && isInGame)
+            if (Time.time >= nextMeteorTime && isInGame)
         {
             SpawnMeteor();
             nextMeteorTime = Time.time + 1f / meteorRate;
@@ -85,9 +90,7 @@ public class SystemController : MonoBehaviour
     {
         scoreOverText.text = "Score: " + score;
         ui.GameOverMenu();
-        isInGame = false;
-        Time.timeScale = 0;
-        
+        isInGame = false;        
     }
 
     public void Play()
@@ -108,7 +111,6 @@ public class SystemController : MonoBehaviour
         }
         coinsL = new List<GameObject>();
 
-        Time.timeScale = 1;
     }
 
     public void TapToPlay()
@@ -139,27 +141,45 @@ public class SystemController : MonoBehaviour
 
     void Add1Coin()
     {
-        PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + 1);
+        PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins", 0) + 10);
+        print("soudl add 1 coin");
     }
 
     public void SetCoins(int num)
     {
+        shopCoinText.text = "Coins: " + num;
         PlayerPrefs.SetInt("Coins", num);
     }
 
     public int GetHS()
     {
-        return PlayerPrefs.GetInt("HS");
+        return PlayerPrefs.GetInt("HS", 0);
     }
 
     public int GetCoins()
     {
-        return PlayerPrefs.GetInt("Coins");
+        return PlayerPrefs.GetInt("Coins", 0);
     }
 
     public void ResetPlayerPrefs()
     {
+        //PlayerPrefs.DeleteAll();
         PlayerPrefs.SetInt("Coins", 0);
         PlayerPrefs.SetInt("HS", 0);
+        PlayerPrefs.SetString("CurrBird", "BirdBase");
+        print("PlayerPrefs Reset...");
+    }
+
+    public void PrintPlayerPrefs()
+    {
+        print("Coins: " + PlayerPrefs.GetInt("Coins") + " HS: " + PlayerPrefs.GetInt("HS") + " Bird: " + PlayerPrefs.GetString("CurrBird"));
+        Add1Coin();
+
+    }
+
+    public void SetCurrentSkin(string skinName)
+    {
+        PlayerPrefs.SetString("CurrBird", skinName);
+        anims.SetSkin(skinName);
     }
 }

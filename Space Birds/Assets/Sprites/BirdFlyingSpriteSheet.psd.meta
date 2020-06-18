@@ -15,7 +15,7 @@ TextureImporter:
       213: -7151277535269641909
     second: BirdFlyingSpriteSheet_3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +69,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -118,7 +119,7 @@ TextureImporter:
         width: 26
         height: 17
       alignment: 9
-      pivot: {x: 0.4497643, y: 0.5512202}
+      pivot: {x: 0.45, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +140,7 @@ TextureImporter:
         width: 26
         height: 16
       alignment: 9
-      pivot: {x: 0.44976455, y: 0.59523773}
+      pivot: {x: 0.45, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +161,7 @@ TextureImporter:
         width: 26
         height: 17
       alignment: 9
-      pivot: {x: 0.4497643, y: 0.5768306}
+      pivot: {x: 0.45, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +182,7 @@ TextureImporter:
         width: 26
         height: 17
       alignment: 9
-      pivot: {x: 0.4665096, y: 0.5512204}
+      pivot: {x: 0.45, y: 0.55}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

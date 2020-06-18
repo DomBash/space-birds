@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 3866334916620b3408919a3ebfcccc8f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4372340493643201136
+    second: RedBirdFlyingSpriteSheet_0
+  - first:
+      213: 6750693691807593162
+    second: RedBirdFlyingSpriteSheet_1
+  - first:
+      213: 6961380688481013107
+    second: RedBirdFlyingSpriteSheet_2
+  - first:
+      213: 409510802923329583
+    second: RedBirdFlyingSpriteSheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +76,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -76,7 +88,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -88,7 +100,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,7 +109,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RedBirdFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 50
+        width: 27
+        height: 17
+      alignment: 9
+      pivot: {x: 0.45, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09547579c735253c0800000000000000
+      internalID: -4372340493643201136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedBirdFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 51
+        width: 27
+        height: 16
+      alignment: 9
+      pivot: {x: 0.45, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac279af55284fad50800000000000000
+      internalID: 6750693691807593162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedBirdFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 27
+        height: 17
+      alignment: 9
+      pivot: {x: 0.45, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dcc2b6adacb9060800000000000000
+      internalID: 6961380688481013107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedBirdFlyingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 27
+        height: 17
+      alignment: 9
+      pivot: {x: 0.47551274, y: 0.55185556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f281ee3d7efdea500800000000000000
+      internalID: 409510802923329583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
