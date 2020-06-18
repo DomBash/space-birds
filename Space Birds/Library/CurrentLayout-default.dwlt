@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 74217
+  controlID: 182
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 74218
+  controlID: 183
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 74219
+  controlID: 184
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 76561
+  controlID: 26
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 60930300
+      m_SelectedIDs: ca3b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: d62ffbff6a3dfbff60fbffff343500009e360000
+      m_ExpandedIDs: 60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1425,20 +1425,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Characters
+    - Assets/Sprites/Characters/Puffin
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Sprites/Characters
+  - Assets/Sprites/Characters/Puffin
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Dominic\Documents\GitHub\space-birds\Space Birds
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 85}
-    m_SelectedIDs: fa380000
-    m_LastClickedID: 14586
-    m_ExpandedIDs: 00000000f6380000f8380000fa3800000a39000000ca9a3b
+    scrollPos: {x: 0, y: 181}
+    m_SelectedIDs: 7c3b0000
+    m_LastClickedID: 15228
+    m_ExpandedIDs: 000000004e3b0000503b0000523b0000623b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1466,7 +1466,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6380000f8380000fa38000000ca9a3b
+    m_ExpandedIDs: 000000004e3b0000503b0000523b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1497,15 +1497,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000525700002a3300000000000068390000d83e0000b23f0000665b000032340000a2400000b0480000963400009c3400007c420000b434000076480000b0e2000006cafeff961f0100ce330000f4480100e8350000143400000a2dffffb6340000f63400000a430000b0a3000054a300003ca300008c390000e6370000dc3a0000fc390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: EggFlyingSpriteSheet
-      m_OriginalName: EggFlyingSpriteSheet
+      m_Name: PenguinFlyingSpriteSheet
+      m_OriginalName: PenguinFlyingSpriteSheet
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14844
+      m_UserData: 15288
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
