@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: eacd03c3748dbb949b7986bb4fac4189
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8130515232349963731
+    second: PuffinRussianFlyingSpriteSheet_0
+  - first:
+      213: 3957209774797276416
+    second: PuffinRussianFlyingSpriteSheet_1
+  - first:
+      213: -4386734609014218044
+    second: PuffinRussianFlyingSpriteSheet_2
+  - first:
+      213: 2496915987734515805
+    second: PuffinRussianFlyingSpriteSheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +109,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PuffinRussianFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d54f19c68465d070800000000000000
+      internalID: 8130515232349963731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuffinRussianFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 48
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005ce70f255dae630800000000000000
+      internalID: 3957209774797276416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuffinRussianFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2abc17d103f13c0800000000000000
+      internalID: -4386734609014218044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuffinRussianFlyingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50d8e29cd3d6a220800000000000000
+      internalID: 2496915987734515805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

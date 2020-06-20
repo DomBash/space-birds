@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: f14f8f854babcea41aeb0ce68727e408
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6146908290729681146
+    second: OwlFarmerFlyingSpriteSheet_0
+  - first:
+      213: 647366523018910519
+    second: OwlFarmerFlyingSpriteSheet_1
+  - first:
+      213: 5834164721979999248
+    second: OwlFarmerFlyingSpriteSheet_2
+  - first:
+      213: 2978279439853203390
+    second: OwlFarmerFlyingSpriteSheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +109,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: OwlFarmerFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0a8dfc5843e4550800000000000000
+      internalID: 6146908290729681146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlFarmerFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 48
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b950c3c68ebf800800000000000000
+      internalID: 647366523018910519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlFarmerFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014cbb667ed17f050800000000000000
+      internalID: 5834164721979999248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlFarmerFlyingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfac46fe59f45920800000000000000
+      internalID: 2978279439853203390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

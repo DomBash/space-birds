@@ -125,7 +125,7 @@ public class ShopController : MonoBehaviour
         string text = PlayerPrefs.GetString(saveName);
         if (text.Length == 0)
         {
-            birds = new BirdList();
+            SetShop();
         }
         else
         {

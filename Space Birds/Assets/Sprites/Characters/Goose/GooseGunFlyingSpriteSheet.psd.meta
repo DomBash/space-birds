@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 9a3518346216376418575373f5cafc57
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -200060444390030902
+    second: GooseGunFlyingSpriteSheet_0
+  - first:
+      213: -5198868849640806243
+    second: GooseGunFlyingSpriteSheet_1
+  - first:
+      213: 7264056156912594249
+    second: GooseGunFlyingSpriteSheet_2
+  - first:
+      213: 3594901057940897819
+    second: GooseGunFlyingSpriteSheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +109,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GooseGunFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac18686f51e393df0800000000000000
+      internalID: -200060444390030902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GooseGunFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 25
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98e0577358e9d7b0800000000000000
+      internalID: -5198868849640806243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GooseGunFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94da34d869c1fc460800000000000000
+      internalID: 7264056156912594249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GooseGunFlyingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b104e313777a3e130800000000000000
+      internalID: 3594901057940897819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

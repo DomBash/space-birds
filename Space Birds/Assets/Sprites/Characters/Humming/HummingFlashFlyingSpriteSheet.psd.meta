@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: eba99fc04f373ef4ab471c0e6777a1b0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -158791534829199778
+    second: HummingFlashFlyingSpriteSheet_0
+  - first:
+      213: -4180031713511321585
+    second: HummingFlashFlyingSpriteSheet_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,7 +103,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HummingFlashFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.52008045, y: 0.6018742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e9a2db0fbdbcdf0800000000000000
+      internalID: -158791534829199778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HummingFlashFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.456895, y: 0.60187423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005a46ad4b8df5c0800000000000000
+      internalID: -4180031713511321585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
