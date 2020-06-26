@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb2D;
-    private float thrust = 20.0f;
+    private float thrust = 15.0f;
 
     public SystemController system;
 
@@ -17,11 +17,17 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && system.isInGame)
+        /*if (Input.GetButtonDown("Fire1") && system.isInGame)
         {
-            rb2D.AddForce(transform.up * thrust, ForceMode2D.Impulse);
-            //rb2D.AddForce(transform.up * 1000);
-        }
+            Tap();
+        }*/
+    }
+
+    public void Tap()
+    {
+        rb2D.velocity = Vector3.zero;
+        rb2D.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+        //rb2D.AddForce(transform.up * 1000);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

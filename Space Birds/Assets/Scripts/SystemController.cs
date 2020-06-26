@@ -35,8 +35,11 @@ public class SystemController : MonoBehaviour
     public PlayerMovement player;
     public AnimationController anims;
 
+    public Transform cam;
+
     void Start()
     {
+        SetCurrentSkin(PlayerPrefs.GetString("CurrBird"));
         nextCoinTime = Time.time + 1f / Random.Range(0.2f, 0.05f);
         for (int i = 0; i < 15; i++)
         {
@@ -90,7 +93,9 @@ public class SystemController : MonoBehaviour
     {
         scoreOverText.text = "Score: " + score;
         ui.GameOverMenu();
-        isInGame = false;        
+        isInGame = false;
+        DestroyMMeteors();
+        DestroyCoins();
     }
 
     public void Play()
@@ -98,24 +103,38 @@ public class SystemController : MonoBehaviour
         player.Play();
         score = 0;
         scoreText.text = score.ToString();
+        foreach(Transform child in cam)
+            child.GetComponent<BackgroundController>().Reset();
 
+        DestroyMMeteors();
+        DestroyCoins();
+
+        
+
+    }
+
+    void DestroyMMeteors()
+    {
         foreach (GameObject meteor in middleMeteors)
         {
             Destroy(meteor);
         }
         middleMeteors = new List<GameObject>();
+    }
 
+    void DestroyCoins()
+    {
         foreach (GameObject coin in coinsL)
         {
             Destroy(coin);
         }
         coinsL = new List<GameObject>();
-
     }
 
     public void TapToPlay()
     {
         isInGame = true;
+
     }
 
     public void AddScore()
@@ -141,8 +160,8 @@ public class SystemController : MonoBehaviour
 
     void Add1Coin()
     {
-        PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins", 0) + 10);
-        print("soudl add 1 coin");
+        PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins", 0) + 1);
+        //print("soudl add 1 coin");
     }
 
     public void SetCoins(int num)

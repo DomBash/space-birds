@@ -92,6 +92,7 @@ public class ShopController : MonoBehaviour
 
         birds.birdList = new Bird[30];
         var count = 0;
+        var cost = 0;
         for(int i = 0; i < birds.birdList.Length; i++)
         {
 
@@ -106,6 +107,9 @@ public class ShopController : MonoBehaviour
                 index = i
             };
 
+            if (newBird.tier != 0)
+                cost += 25;
+            newBird.price = cost;
             if (count == 2)
                 count = 0;
             else
@@ -114,6 +118,15 @@ public class ShopController : MonoBehaviour
 
             birds.birdList[i] = newBird;
         }
+
+        birds.birdList[0].visible = true;
+        birds.birdList[0].owned = true;
+
+        birds.birdList[1].visible = true;
+        birds.birdList[3].visible = true;
+
+        //SetBirdPrices();
+
 
         SavePlayerValues(pp);
         print("Base Shop Created...");
