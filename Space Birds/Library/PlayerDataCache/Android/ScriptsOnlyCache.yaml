@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AnimationController
     - BackgroundController
     - CoinController
+    - DevTools
     - MeteorController
     - PlayerMovement
     - ShopButton
@@ -67,6 +68,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -76,47 +81,49 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11296}
+      Script: {instanceID: 11162}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 11488}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 11376}
     - Class: 114
-      Script: {instanceID: 11600}
+      Script: {instanceID: 11430}
     - Class: 114
-      Script: {instanceID: 11672}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11692}
     - Class: 114
-      Script: {instanceID: 11898}
+      Script: {instanceID: 11700}
     - Class: 114
-      Script: {instanceID: 12006}
+      Script: {instanceID: 11794}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 11822}
     - Class: 114
-      Script: {instanceID: 12166}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 12198}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 12508}
+      Script: {instanceID: 12210}
     - Class: 114
-      Script: {instanceID: 12682}
+      Script: {instanceID: 12374}
     - Class: 114
-      Script: {instanceID: 12846}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 13112}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 13172}
+      Script: {instanceID: 12784}
     - Class: 114
-      Script: {instanceID: 13472}
+      Script: {instanceID: 13054}
     - Class: 114
-      Script: {instanceID: 13496}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13546}
+      Script: {instanceID: 13118}
+    - Class: 114
+      Script: {instanceID: 44118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -354,13 +361,13 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 845452c780329544a1b3600fa671f5cf
+      Hash: d89293a909354fbd8a48eecba318dbd9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MeteorController
   - hash:
       serializedVersion: 2
-      Hash: 0bfe11f3dae6bce959b66f179883ecd9
+      Hash: 070e442e1baf8b8feffccfcf8c036e23
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SystemController
@@ -616,6 +623,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DevTools
   platform: 13
   scenePathNames:
   - Assets/Scenes/Game.unity

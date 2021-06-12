@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SystemController : MonoBehaviour
 {
+    public static SystemController system;
 
     public GameObject meteorPrefab;
     public GameObject meteorMiddlePrefab;
@@ -15,7 +16,7 @@ public class SystemController : MonoBehaviour
 
     public Text shopCoinText;
 
-    private float meteorRate = 0.5f;
+    private float meteorRate = 1f; //0.5f
     private float nextMeteorTime = 0f;
 
     private float nextCoinTime = 0f;
@@ -28,14 +29,29 @@ public class SystemController : MonoBehaviour
     private int score = 0;
     private int coins = 0;
 
+    [HideInInspector]
+    public int newCoins = 0;
+
     public Text scoreText;
     public Text scoreOverText;
+    public Text coinOverText;
 
     public UIController ui;
     public PlayerMovement player;
     public AnimationController anims;
+    public AudioSource bgMusic;
 
     public Transform cam;
+
+    void Awake()
+     {
+         if(system != null)
+             GameObject.Destroy(system);
+         else
+             system = this;
+         
+         DontDestroyOnLoad(this);
+     }
 
     void Start()
     {
@@ -71,7 +87,7 @@ public class SystemController : MonoBehaviour
         if (Time.time >= nextCoinTime && isInGame)
         {
             SpawnCoin();
-            nextCoinTime = Time.time + 1f / Random.Range(0.2f, 0.05f);
+            nextCoinTime = Time.time + 1f / Random.Range(0.15f, 0.05f);
         }
     }
 
@@ -92,6 +108,7 @@ public class SystemController : MonoBehaviour
     public void GameOver()
     {
         scoreOverText.text = "Score: " + score;
+        coinOverText.text = "New Coins: " + newCoins;
         ui.GameOverMenu();
         isInGame = false;
         DestroyMMeteors();
@@ -102,15 +119,13 @@ public class SystemController : MonoBehaviour
     {
         player.Play();
         score = 0;
+        newCoins = 0;
         scoreText.text = score.ToString();
         foreach(Transform child in cam)
             child.GetComponent<BackgroundController>().Reset();
 
         DestroyMMeteors();
         DestroyCoins();
-
-        
-
     }
 
     void DestroyMMeteors()
@@ -200,5 +215,15 @@ public class SystemController : MonoBehaviour
     {
         PlayerPrefs.SetString("CurrBird", skinName);
         anims.SetSkin(skinName);
+    }
+
+    public void SoundOn()
+    {
+        bgMusic.Play();
+    }
+
+    public void SoundOff()
+    {
+        bgMusic.Pause();
     }
 }

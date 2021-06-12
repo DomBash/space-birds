@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.tag == "Coin")
         {
             FindObjectOfType<SystemController>().AddCoin();
+            SystemController.system.newCoins += 1;
             Destroy(other.gameObject);
         }
     }

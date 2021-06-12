@@ -13,5 +13,10 @@ public class CoinController : MonoBehaviour
     void Update()
     {
         transform.Translate(-Time.deltaTime * 5f, 0f, 0f, Space.World);
+
+        if (transform.position.x <= -10)
+        {
+                Destroy(gameObject);
+        }
     }
 }

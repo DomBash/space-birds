@@ -6,7 +6,7 @@ public class MeteorController : MonoBehaviour
 {
     private int spriteNum = 0;
     private float rotationSpeed;
-    public float moveSpeed = 1f;
+    private float moveSpeed; //4f
     public bool middle = false;
     private bool pointAdded = false;
     private SystemController system;
@@ -14,7 +14,13 @@ public class MeteorController : MonoBehaviour
     void Start()
     {
         rotationSpeed = Random.Range(30, 60);
-        system = FindObjectOfType<SystemController>();
+
+        if(!middle)
+            moveSpeed = 4f;
+        else
+            moveSpeed = Random.Range(4, 8);
+
+        system = SystemController.system;
         SetSprite();
     }
 
