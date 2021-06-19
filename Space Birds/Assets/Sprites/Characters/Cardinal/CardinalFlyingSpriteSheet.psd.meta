@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -2938166725773908767
     second: CardinalFlyingSpriteSheet_3
+  - first:
+      213: 5344305713441186978
+    second: CardinalFlyingSpriteSheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,11 +118,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 60
-        height: 48
+        y: 25
+        width: 34
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,12 +138,12 @@ TextureImporter:
       name: CardinalFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 48
-        width: 60
-        height: 48
+        x: 34
+        y: 25
+        width: 34
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,36 +156,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CardinalFlyingSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08aa850b5c3846d80800000000000000
-      internalID: -8258330931600250240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CardinalFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 34
         y: 0
-        width: 60
-        height: 48
+        width: 34
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,6 +172,27 @@ TextureImporter:
       bones: []
       spriteID: 1e4af531ee88937d0800000000000000
       internalID: -2938166725773908767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardinalFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4a0c42bb9ca2a40800000000000000
+      internalID: 5344305713441186978
       vertices: []
       indices: 
       edges: []

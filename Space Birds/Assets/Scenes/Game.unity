@@ -14630,6 +14630,21 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 1985121860}
+    - target: {fileID: 780183511010702875, guid: 737113e8fbc6da34fb8b994388e396fc,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 780183511010702875, guid: 737113e8fbc6da34fb8b994388e396fc,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 780183511010702875, guid: 737113e8fbc6da34fb8b994388e396fc,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 780183511010702878, guid: 737113e8fbc6da34fb8b994388e396fc,
         type: 3}
       propertyPath: system

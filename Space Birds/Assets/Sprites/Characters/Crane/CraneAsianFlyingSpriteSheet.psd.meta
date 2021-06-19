@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -885191368222759955
     second: CraneAsianFlyingSpriteSheet_3
+  - first:
+      213: 2954173969697983160
+    second: CraneAsianFlyingSpriteSheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,9 +118,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 60
-        height: 48
+        y: 35
+        width: 58
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +138,10 @@ TextureImporter:
       name: CraneAsianFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 48
-        width: 60
-        height: 48
+        x: 58
+        y: 35
+        width: 58
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,34 +156,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CraneAsianFlyingSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18145eb14b4d0f900800000000000000
-      internalID: 716306210779120001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CraneAsianFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 58
         y: 0
-        width: 60
-        height: 48
+        width: 58
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,6 +172,27 @@ TextureImporter:
       bones: []
       spriteID: de327daf32b27b3f0800000000000000
       internalID: -885191368222759955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CraneAsianFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bacd84d2955ff820800000000000000
+      internalID: 2954173969697983160
       vertices: []
       indices: 
       edges: []

@@ -115,11 +115,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+        y: 24
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,12 +135,12 @@ TextureImporter:
       name: EagleBaldingFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 48
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
+        x: 29
+        y: 24
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,10 +158,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: EagleBaldingFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 29
         y: 0
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

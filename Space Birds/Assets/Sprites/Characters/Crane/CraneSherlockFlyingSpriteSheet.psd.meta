@@ -123,55 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CraneSherlockFlyingSpriteSheet_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 48
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 306b1da7cea9d3aa0800000000000000
-      internalID: -6179612773218929149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CraneSherlockFlyingSpriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 48
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c614733dfec7cebb0800000000000000
-      internalID: -4905408524630670996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CraneSherlockFlyingSpriteSheet_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 60.5
-        height: 48
+        width: 58
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,13 +144,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CraneSherlockFlyingSpriteSheet_3
+      name: CraneSherlockFlyingSpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 60.5
-        height: 48
+        x: 0
+        y: 35
+        width: 58
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +158,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da97beb3f4e7457e0800000000000000
-      internalID: -1777657074131699283
+      spriteID: 2aa1b36e886cf5520800000000000000
+      internalID: 2693089393471330978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CraneSherlockFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 35
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eeb7a8938cecee0800000000000000
+      internalID: -1238832698018238864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CraneSherlockFlyingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c74c302723e81ab0800000000000000
+      internalID: -5037026426029848632
       vertices: []
       indices: 
       edges: []
