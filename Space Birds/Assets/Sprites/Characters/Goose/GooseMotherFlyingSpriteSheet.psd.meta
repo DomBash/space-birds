@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: -1885164738576154020
     second: GooseMotherFlyingSpriteSheet_3
+  - first:
+      213: -2634731776223809424
+    second: GooseMotherFlyingSpriteSheet_0
+  - first:
+      213: 1351623831132405050
+    second: GooseMotherFlyingSpriteSheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,33 +117,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GooseMotherFlyingSpriteSheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 25
-        width: 45
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7678f056d93b7d90800000000000000
-      internalID: -7099016794975209859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GooseMotherFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 45
+        x: 32
         y: 25
-        width: 45
+        width: 32
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,33 +138,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GooseMotherFlyingSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 45
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64304b7d881b70d20800000000000000
-      internalID: 3244757257836299078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GooseMotherFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 45
+        x: 32
         y: 0
-        width: 45
+        width: 32
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -190,6 +154,48 @@ TextureImporter:
       bones: []
       spriteID: c52831688ac86d5e0800000000000000
       internalID: -1885164738576154020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GooseMotherFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070febfa86d8f6bd0800000000000000
+      internalID: -2634731776223809424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GooseMotherFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d799496bee1c210800000000000000
+      internalID: 1351623831132405050
       vertices: []
       indices: 
       edges: []

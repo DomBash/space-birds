@@ -123,57 +123,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EggAngelFlyingSpriteSheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.7, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98e5f8ec99fdb2270800000000000000
-      internalID: 8226914996010835593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EggAngelFlyingSpriteSheet_1
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 48
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.7, y: 0.45}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc950d3bf5d9d7450800000000000000
-      internalID: 6088195305639008719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: EggAngelFlyingSpriteSheet_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.7, y: 0.4}
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,22 +144,64 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EggAngelFlyingSpriteSheet_3
+      name: EggAngelFlyingSpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 60
-        height: 48
-      alignment: 9
-      pivot: {x: 0.7, y: 0.4}
+        x: 0
+        y: 39
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1888e030c89cd73a0800000000000000
-      internalID: -6665950270254577535
+      spriteID: a171a2ff2ca82ee90800000000000000
+      internalID: -6997878300871092454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggAngelFlyingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 39
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31766d87a3c2de580800000000000000
+      internalID: -8796325867537668333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EggAngelFlyingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d6c3adcd566a30800000000000000
+      internalID: 4208154039621701937
       vertices: []
       indices: 
       edges: []
