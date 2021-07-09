@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: -7549788184727953511
     second: HummingFlyingSpriteSheet_1
+  - first:
+      213: -8735574843368263375
+    second: HummingFlyingSpriteSheet_0
+  - first:
+      213: -2717505135222860092
+    second: HummingFlyingSpriteSheet_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,19 +114,19 @@ TextureImporter:
       name: HummingFlyingSpriteSheet_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.45, y: 0.55}
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59207cf74d0395270800000000000000
-      internalID: 8239670682485981845
+      spriteID: 131323886f005c680800000000000000
+      internalID: -8735574843368263375
       vertices: []
       indices: 
       edges: []
@@ -129,19 +135,19 @@ TextureImporter:
       name: HummingFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 40
         y: 0
-        width: 64
-        height: 64
-      alignment: 9
-      pivot: {x: 0.4, y: 0.55}
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99f59df75a3c93790800000000000000
-      internalID: -7549788184727953511
+      spriteID: 4c6ddbb3a7b794ad0800000000000000
+      internalID: -2717505135222860092
       vertices: []
       indices: 
       edges: []

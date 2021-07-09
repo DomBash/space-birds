@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -4274815386229356475
     second: PenguinSledFlyingSpriteSheet_3
+  - first:
+      213: 5549683319260988660
+    second: PenguinSledFlyingSpriteSheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,9 +118,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 60
-        height: 48
+        y: 29
+        width: 38
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +138,10 @@ TextureImporter:
       name: PenguinSledFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 48
-        width: 60
-        height: 48
+        x: 38
+        y: 29
+        width: 38
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,34 +156,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PenguinSledFlyingSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c25998081bb0e290800000000000000
-      internalID: -7863079237491010878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PenguinSledFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 38
         y: 0
-        width: 60
-        height: 48
+        width: 38
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,6 +172,27 @@ TextureImporter:
       bones: []
       spriteID: 548cc6f1e0ecca4c0800000000000000
       internalID: -4274815386229356475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PenguinSledFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4467c439f640d40800000000000000
+      internalID: 5549683319260988660
       vertices: []
       indices: 
       edges: []

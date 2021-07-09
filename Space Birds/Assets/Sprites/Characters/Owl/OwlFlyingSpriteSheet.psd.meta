@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: 1990869102365092639
     second: OwlFlyingSpriteSheet_3
+  - first:
+      213: -861817415262931077
+    second: OwlFlyingSpriteSheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,9 +118,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 60
-        height: 48
+        y: 29
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +138,10 @@ TextureImporter:
       name: OwlFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 48
-        width: 60
-        height: 48
+        x: 30
+        y: 29
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,34 +156,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OwlFlyingSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2d83f55951180930800000000000000
-      internalID: 4109553735367363883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: OwlFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 30
         y: 0
-        width: 60
-        height: 48
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,6 +172,27 @@ TextureImporter:
       bones: []
       spriteID: f1ba5c886ecf0ab10800000000000000
       internalID: 1990869102365092639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlFlyingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77f10e70a53a04f0800000000000000
+      internalID: -861817415262931077
       vertices: []
       indices: 
       edges: []

@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 4940737050133760454
     second: OwlPopeFlyingSpriteSheet_3
+  - first:
+      213: 2078685038812213892
+    second: OwlPopeFlyingSpriteSheet_2
+  - first:
+      213: 798322286843697582
+    second: OwlPopeFlyingSpriteSheet_0
+  - first:
+      213: -9114561424916162569
+    second: OwlPopeFlyingSpriteSheet_1
+  - first:
+      213: -7995253393529533731
+    second: OwlPopeFlyingSpriteSheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -111,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OwlPopeFlyingSpriteSheet_0
+      name: OwlPopeFlyingSpriteSheet_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 60
-        height: 48
+        y: 0
+        width: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +137,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c000ab96710643d0800000000000000
-      internalID: -3222886874408288062
+      spriteID: 482325a8709f8dc10800000000000000
+      internalID: 2078685038812213892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OwlPopeFlyingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea99893e3e5341b00800000000000000
+      internalID: 798322286843697582
       vertices: []
       indices: 
       edges: []
@@ -135,10 +168,10 @@ TextureImporter:
       name: OwlPopeFlyingSpriteSheet_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 48
-        width: 60
-        height: 48
+        x: 30
+        y: 31
+        width: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,29 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 851499437c4928e80800000000000000
-      internalID: -8177810390049537704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: OwlPopeFlyingSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f1321213dd699290800000000000000
-      internalID: -7883148919426633224
+      spriteID: 7f7d460dca2928180800000000000000
+      internalID: -9114561424916162569
       vertices: []
       indices: 
       edges: []
@@ -177,10 +189,10 @@ TextureImporter:
       name: OwlPopeFlyingSpriteSheet_3
       rect:
         serializedVersion: 2
-        x: 60
+        x: 30
         y: 0
-        width: 60
-        height: 48
+        width: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c985d18b26019440800000000000000
-      internalID: 4940737050133760454
+      spriteID: dda8f6536672b0190800000000000000
+      internalID: -7995253393529533731
       vertices: []
       indices: 
       edges: []
