@@ -36,6 +36,8 @@ public class SystemController : MonoBehaviour
     public Text scoreOverText;
     public Text coinOverText;
 
+    public GameObject overAdButton;
+
     public UIController ui;
     public PlayerMovement player;
     public AnimationController anims;
@@ -87,7 +89,7 @@ public class SystemController : MonoBehaviour
         if (Time.time >= nextCoinTime && isInGame)
         {
             SpawnCoin();
-            nextCoinTime = Time.time + 1f / Random.Range(0.15f, 0.05f);
+            nextCoinTime = Time.time + 1f / Random.Range(0.15f, 0.1f);
         }
     }
 
@@ -107,11 +109,14 @@ public class SystemController : MonoBehaviour
 
     public void GameOver()
     {
-        print("gameover");
         if(isInGame == true)
         {
             scoreOverText.text = "Score: " + score;
             coinOverText.text = "New Coins: " + newCoins;
+            if(newCoins > 0)
+            {
+                overAdButton.SetActive(true);
+            }
             ui.GameOverMenu();
             isInGame = false;
             DestroyMMeteors();
@@ -122,6 +127,7 @@ public class SystemController : MonoBehaviour
 
     public void Play()
     {
+        overAdButton.SetActive(false);
         player.Play();
         score = 0;
         newCoins = 0;
@@ -220,6 +226,11 @@ public class SystemController : MonoBehaviour
     {
         PlayerPrefs.SetString("CurrBird", skinName);
         anims.SetSkin(skinName);
+    }
+
+    public void SetAdButtonActive(bool parity)
+    {
+        overAdButton.SetActive(parity);
     }
 
     public void SoundOn()

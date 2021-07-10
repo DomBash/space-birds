@@ -10,6 +10,7 @@ public class UIController : MonoBehaviour
     public GameObject mainMenu;
     public GameObject shopMenu;
     public GameObject tapPlay;
+    public GameObject cashMenu;
 
     public SystemController system;
     public PlayerMovement player;
@@ -19,6 +20,7 @@ public class UIController : MonoBehaviour
     public Text coinsText;
     public Text coinsShopText;
     public Text hsOverText;
+    public Text coinsCashShopText;
 
     void Start()
     {
@@ -82,9 +84,21 @@ public class UIController : MonoBehaviour
         mainMenu.SetActive(false);
     }
 
+    public void CashButton()
+    {
+        coinsCashShopText.text = "Coins: " + system.GetCoins();
+        cashMenu.SetActive(true);
+    }
+
+    public void CloseCashShop()
+    {
+        cashMenu.SetActive(false);
+        coinsShopText.text = "Coins: " + system.GetCoins();
+    }
+
     public void PlayRewardedAd()
     {
-        var reward = 10;
+        int reward = system.newCoins;
         ads.PlayRewardedAd(reward);
     }
 }

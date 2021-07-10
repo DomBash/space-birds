@@ -89,6 +89,7 @@ public class ShopController : MonoBehaviour
 
     void SetShop()
     {
+        var total = 0;
 
         birds.birdList = new Bird[30];
         var count = 0;
@@ -117,6 +118,7 @@ public class ShopController : MonoBehaviour
 
 
             birds.birdList[i] = newBird;
+            total += cost;
         }
 
         birds.birdList[0].visible = true;
@@ -130,6 +132,7 @@ public class ShopController : MonoBehaviour
 
         SavePlayerValues(pp);
         print("Base Shop Created...");
+        print("Total cost: $" + total);
     }
 
     void LoadPlayerValues(string saveName)

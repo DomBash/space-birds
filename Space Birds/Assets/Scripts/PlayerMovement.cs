@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Tap()
     {
-        print("intap");
         rb2D.velocity = Vector3.zero;
         rb2D.AddForce(transform.up * thrust, ForceMode2D.Impulse);
         //rb2D.AddForce(transform.up * 1000);
@@ -33,16 +32,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        print(other.tag);
+        
         if (other.tag == "Meteor")
         {
-            FindObjectOfType<SystemController>().GameOver();
+            system.GameOver();
         }
 
         if (other.tag == "Coin")
         {
-            FindObjectOfType<SystemController>().AddCoin();
-            SystemController.system.newCoins += 1;
+            system.AddCoin();
+            system.newCoins += 1;
             Destroy(other.gameObject);
         }
     }
@@ -56,8 +55,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void TapToPlay()
     {
-        print("taptoplay");
         rb2D.gravityScale = 3;
-        
     }
 }
