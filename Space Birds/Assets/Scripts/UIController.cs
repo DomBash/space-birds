@@ -13,6 +13,7 @@ public class UIController : MonoBehaviour
 
     public SystemController system;
     public PlayerMovement player;
+    public AdManager ads;
 
     public Text hsText;
     public Text coinsText;
@@ -69,7 +70,9 @@ public class UIController : MonoBehaviour
 
         coinsText.text = "Coins: " + system.GetCoins();
         hsText.text = "High Score: " + system.GetHS();
+        
         mainMenu.SetActive(true);
+        gameOverMenu.SetActive(false);
     }
 
     public void ShopButton()
@@ -77,5 +80,11 @@ public class UIController : MonoBehaviour
         coinsShopText.text = "Coins: " + system.GetCoins();
         shopMenu.SetActive(true);
         mainMenu.SetActive(false);
+    }
+
+    public void PlayRewardedAd()
+    {
+        var reward = 10;
+        ads.PlayRewardedAd(reward);
     }
 }

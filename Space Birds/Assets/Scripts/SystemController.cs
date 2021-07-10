@@ -107,12 +107,17 @@ public class SystemController : MonoBehaviour
 
     public void GameOver()
     {
-        scoreOverText.text = "Score: " + score;
-        coinOverText.text = "New Coins: " + newCoins;
-        ui.GameOverMenu();
-        isInGame = false;
-        DestroyMMeteors();
-        DestroyCoins();
+        print("gameover");
+        if(isInGame == true)
+        {
+            scoreOverText.text = "Score: " + score;
+            coinOverText.text = "New Coins: " + newCoins;
+            ui.GameOverMenu();
+            isInGame = false;
+            DestroyMMeteors();
+            DestroyCoins();
+        }
+        
     }
 
     public void Play()
