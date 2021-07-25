@@ -25,6 +25,7 @@ public class SystemController : MonoBehaviour
     private List<GameObject> coinsL = new List<GameObject>();
 
     public bool isInGame = false;
+    private bool isMuted = false;
 
     private int score = 0;
     private int coins = 0;
@@ -42,6 +43,8 @@ public class SystemController : MonoBehaviour
     public PlayerMovement player;
     public AnimationController anims;
     public AudioSource bgMusic;
+    public AudioSource flapSound;
+    public AudioSource coinCollectSound;
 
     public Transform cam;
 
@@ -160,7 +163,6 @@ public class SystemController : MonoBehaviour
     public void TapToPlay()
     {
         isInGame = true;
-
     }
 
     public void AddScore()
@@ -175,6 +177,9 @@ public class SystemController : MonoBehaviour
 
     public void AddCoin()
     {
+        if(!isMuted)
+            coinCollectSound.Play();
+            
         coins += 1;
         Add1Coin();
     }
@@ -219,7 +224,6 @@ public class SystemController : MonoBehaviour
     {
         print("Coins: " + PlayerPrefs.GetInt("Coins") + " HS: " + PlayerPrefs.GetInt("HS") + " Bird: " + PlayerPrefs.GetString("CurrBird"));
         Add1Coin();
-
     }
 
     public void SetCurrentSkin(string skinName)
@@ -236,10 +240,18 @@ public class SystemController : MonoBehaviour
     public void SoundOn()
     {
         bgMusic.Play();
+        isMuted = false;
     }
 
     public void SoundOff()
     {
         bgMusic.Pause();
+        isMuted = true;
+    }
+
+    public void PlayFlapSound()
+    {
+        if(!isMuted)
+            flapSound.Play();
     }
 }

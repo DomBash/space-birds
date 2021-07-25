@@ -25,8 +25,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void Tap()
     {
+        system.PlayFlapSound();
         rb2D.velocity = Vector3.zero;
         rb2D.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+        
         //rb2D.AddForce(transform.up * 1000);
     }
 

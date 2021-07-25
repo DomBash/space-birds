@@ -40,7 +40,7 @@ public class MeteorController : MonoBehaviour
             system.AddScore();
         }
 
-        if (transform.position.x <= -10)
+        if (transform.position.x <= -11)
         {
             if (!middle)
                 ResetMeteor();

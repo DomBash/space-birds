@@ -73,10 +73,14 @@ public class ShopController : MonoBehaviour
         birds.birdList[index].visible = true;
         contentHolder.GetChild(index).GetComponent<ShopButton>().SetVisible();
 
-        index += 2;
-        birds.birdList[index].visible = true;
-        contentHolder.GetChild(index).GetComponent<ShopButton>().SetVisible();
+        print(birds.birdList[index].name);
 
+        if(birds.birdList[index].name != "HummingRacer")
+        {
+            index += 2;
+            birds.birdList[index].visible = true;
+            contentHolder.GetChild(index).GetComponent<ShopButton>().SetVisible();
+        }
         SavePlayerValues(pp);
     }
 

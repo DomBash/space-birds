@@ -7,7 +7,7 @@ public class DevTools : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetInt("Coins", 1000000);
+        PlayerPrefs.SetInt("Coins", 7500);
     }
 
     // Update is called once per frame

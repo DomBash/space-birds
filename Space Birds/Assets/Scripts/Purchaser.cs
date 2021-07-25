@@ -10,7 +10,7 @@ public class Purchaser : MonoBehaviour, IStoreListener
 
     public static string kProductID100Coins = "100C";   
     public static string kProductID1000Coins =    "1000C";   
-    public static string kProductID100000Coins =    "100000C";   
+    public static string kProductID10000Coins =    "10000C";   
 
     public static string kProductIDSubscription =  "subscription"; 
 
@@ -44,7 +44,7 @@ public class Purchaser : MonoBehaviour, IStoreListener
 
         builder.AddProduct(kProductID100Coins, ProductType.Consumable);
         builder.AddProduct(kProductID1000Coins, ProductType.Consumable);
-        builder.AddProduct(kProductID100000Coins, ProductType.Consumable);
+        builder.AddProduct(kProductID10000Coins, ProductType.Consumable);
 
 
         // And finish adding the subscription product. Notice this uses store-specific IDs, illustrating
@@ -79,9 +79,9 @@ public class Purchaser : MonoBehaviour, IStoreListener
         BuyProductID(kProductID1000Coins);
     }
 
-    public void Buy100000Coins()
+    public void Buy10000Coins()
     {
-        BuyProductID(kProductID100000Coins);
+        BuyProductID(kProductID10000Coins);
     }
 
 
@@ -201,7 +201,7 @@ public class Purchaser : MonoBehaviour, IStoreListener
             Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
             // TODO: The non-consumable item has been successfully purchased, grant this item to the player.
         }
-        else if (String.Equals(args.purchasedProduct.definition.id, kProductID100000Coins, StringComparison.Ordinal))
+        else if (String.Equals(args.purchasedProduct.definition.id, kProductID10000Coins, StringComparison.Ordinal))
         {
             Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
             // TODO: The non-consumable item has been successfully purchased, grant this item to the player.

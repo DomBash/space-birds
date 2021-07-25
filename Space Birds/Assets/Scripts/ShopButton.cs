@@ -99,7 +99,7 @@ public class ShopButton : MonoBehaviour
                         shop.SetNextSkinVisible(thisBird.index);
                     }
 
-                    if (thisBird.tier == 0)
+                    if (thisBird.tier == 0 )//&& thisBird.name != "HummingBase")
                     {
                         shop.SetNextBirdVisible(thisBird.index);
                     }
