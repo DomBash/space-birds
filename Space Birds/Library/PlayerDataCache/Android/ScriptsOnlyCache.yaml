@@ -17,7 +17,6 @@ ScriptsOnlyBuild:
     - GoogleMobileAds.Common.MobileAdsEventExecutor
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
-    - GoogleMobileAds.Editor.GoogleMobileAdsSettingsEditor
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
